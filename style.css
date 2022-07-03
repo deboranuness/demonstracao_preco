@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html body{
+    background-color: #E8E9F3;
+}
+
+body .main{
+    background-color: #13121A;
+    width: 80%;
+    display: block;
+    margin: 200px auto;
+    box-shadow: 0px 0px 10px 10px #00000045;
+    padding: 50px 0;
+}
+
+body form{
+    display: flex;
+    padding: 30px;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+body form label{
+    border: solid #B81E35;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 50px;
+    font-size: 1.3em;
+    transition: 0.3s;
+    margin: 0 150px;
+}
+
+input[type="radio"]:focus + label , input[type="radio"]:checked + label {
+    background-color: #B81E35;
+    box-shadow: 0px 0px 10px 5px #0f0103;
+    font-weight: bold;
+    color: black;
+    transition: 0.3s;
+}
+
+body form label:hover{
+    background-color: #B81E35;
+    box-shadow: 0px 0px 10px 5px #0f0103;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.main h1, .main h2{
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: #E8E9F3;
+}
+.precos{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.preco{
+    margin: 10px;
+    padding: 10px;
+    border: solid #43C59E;
+    border-radius: 10px;
+    margin: 50px 50px;
+}
+.preco p{
+    padding: 10px;
+}
+.preco .valor{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #1EA896;
+    margin: 10px;
+}
+.preco li{
+    margin-left: 15%;
+    padding: 5px;
+}
