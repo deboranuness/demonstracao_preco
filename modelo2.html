@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style2.css">
+
+    <title>Tabela de preços</title>
+
+  </head>
+  <body>
+
+    <div class="main">
+
+        <h1>Tabela de preços:</h1>
+
+        <form action="">
+
+            <div class="opcoes">
+                <input type="radio" id="mensal" name="periodo" value="MENSAL" checked>
+                <label onclick="mensal();" for="mensal">MENSAL</label>
+
+                <input type="radio" id="anual" name="periodo" value="ANUAL">
+                <label onclick="anual();" for="anual">ANUAL</label>
+
+            </div>
+
+            <script>
+            function mensal(){
+            document.getElementById("valor1").innerHTML = 'R$49,90';
+            document.getElementById("valor2").innerHTML = 'R$79,90';
+            document.getElementById("valor3").innerHTML = 'R$99,90';
+        
+            }
+            
+            function anual(){
+            document.getElementById("valor1").innerHTML = 'R$419,16';
+            document.getElementById("valor2").innerHTML = 'R$671,16';
+            document.getElementById("valor3").innerHTML = 'R$839,16';
+            }
+            </script>
+    
+        </form>
+
+        <div class="precos">
+            <div class="preco" id="preco1">
+                <h2>PLANO 1</h2>
+                <p>Esta é uma descrição do plano</p>
+
+                <p class="valor" id="valor1">R$49,90</p>
+
+                <ul>
+                    <li id="included">AAC+ & MP3 Encoder</li>
+                    <li id="included">Ao Vivo e Auto DJ</li>
+                    <li id="included">Tráfego Áudio ILIMITADO</li>
+                    <li id="included">Site Administrável</li>
+                    <li id="included">Subdomínio Grátis</li>
+                    <li id="included">Proteção DDoS</li>
+                    <li id="included">Biblioteca MP3</li>
+                    <li id="not-included">Aplicativo Android Grátis</li>
+                    <li id="not-included">Aplicativo MultiPlataforma</li>
+                    <li id="not-included">Publicação Loja Voxtream</li>
+                    <li id="not-included">Programetes</li>
+                    <li id="not-included">Programas Diários</li>
+                    <li id="not-included">Programas Fim de Semana</li>
+                    <li id="not-included">Conteúdos Disponíveis</li>
+                    <li id="not-included">Câmera no Estúdio</li>
+                </ul>
+            </div>
+
+            <div class="preco" id="preco2">
+                <h2>PLANO 2</h2>
+                <p>Esta é uma descrição do plano</p>
+
+                <p class="valor" id="valor2">R$79,90</p>
+
+                <ul>
+                    <li id="included">AAC+ & MP3 Encoder</li>
+                    <li id="included">Ao Vivo e Auto DJ</li>
+                    <li id="included">Tráfego Áudio ILIMITADO</li>
+                    <li id="included">Site Administrável</li>
+                    <li id="included">Subdomínio Grátis</li>
+                    <li id="included">Proteção DDoS</li>
+                    <li id="included">Biblioteca MP3</li>
+                    <li id="included">Aplicativo Android Grátis</li>
+                    <li id="included">Aplicativo MultiPlataforma</li>
+                    <li id="included">Publicação Loja Voxtream</li>
+                    <li id="included">Programetes</li>
+                    <li id="included">Programas Diários</li>
+                    <li id="included">Programas Fim de Semana</li>
+                    <li id="not-included">Conteúdos Disponíveis</li>
+                    <li id="not-included">Câmera no Estúdio</li>
+                </ul>
+            </div>
+
+            <div class="preco" id="preco3">
+                <h2>PLANO 3</h2>
+                <p>Esta é uma descrição do plano</p>
+
+                <p class="valor" id="valor3">R$99,90</p>
+
+                <ul>
+                    <li id="included">AAC+ & MP3 Encoder</li>
+                    <li id="included">Ao Vivo e Auto DJ</li>
+                    <li id="included">Tráfego Áudio ILIMITADO</li>
+                    <li id="included">Site Administrável</li>
+                    <li id="included">Subdomínio Grátis</li>
+                    <li id="included">Proteção DDoS</li>
+                    <li id="included">Biblioteca MP3</li>
+                    <li id="included">Aplicativo Android Grátis</li>
+                    <li id="included">Aplicativo MultiPlataforma</li>
+                    <li id="included">Publicação Loja Voxtream</li>
+                    <li id="included">Programetes</li>
+                    <li id="included">Programas Diários</li>
+                    <li id="included">Programas Fim de Semana</li>
+                    <li id="included">Conteúdos Disponíveis</li>
+                    <li id="included">Câmera no Estúdio</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+  </body>
+</html>
